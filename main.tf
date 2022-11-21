@@ -1,6 +1,6 @@
 module "landingzone" {
   source  = "app.terraform.io/hashicorp-antoine/landingzone/tfe"
-  version = "1.0.5"
+  version = "1.0.6"
   
   tfc_token = var.tfc_token
   github_token = var.github_token
